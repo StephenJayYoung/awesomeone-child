@@ -15,7 +15,7 @@ Template: awesomeone
 AwesomeOne WordPress Theme has been created by Flythemes(flythemes.net), 2015.
 AwesomeOne WordPress Theme is released under the terms of GNU GPL
 */
-
+@import url('bootstrap/bootstrap.min.css'); 
 
 *{ margin:0; padding:0; outline:none;}
 body{ margin:0; padding:0; -ms-word-wrap:break-word; word-wrap:break-word; background-color:#fff; position:relative; font:12px/22px arial; color:#666666;}
