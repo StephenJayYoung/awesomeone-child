@@ -256,6 +256,28 @@ a.read-more {
 	margin-top: 15px;
 }
 
+/*About page code*/
+@media screen and (max-width:1200px) {
+	.about-image {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width:1200px) {
+
+	.about-image-two{
+		display: none !important;
+	}
+
+	.about-image-three{
+		display: none !important;
+	}
+}
+
+h1.entry-title, h1.page-title {
+	text-align: center;
+}
+
 
 
 
