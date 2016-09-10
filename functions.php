@@ -20,6 +20,12 @@ wp_enqueue_script( 'theme_styles' );
 
 wp_enqueue_style( 'theme_js' );
 
+// Register Custom Navigation Walker
+require_once('wp_bootstrap_navwalker.php');
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'awesomeone' ),
+) );
 
 ?>
 

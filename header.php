@@ -19,24 +19,40 @@
 <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 
 <body <?php body_class(); ?>>
-<div class="header" <?php if(!is_home() || !is_front_page()) {?> style="position:inherit;"<?php }?>>
-            		<div class="header-inner">
-                    		<div class="logo">
-                            		
-    	                                    <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?> </a></h1>
-                                            <span><?php bloginfo('description'); ?></span>
-                                   
-                             </div>
-                             <div class="header-widget">
-                             	<?php dynamic_sidebar('sidebar-3'); ?>
-                             </div><!-- hedaer-widget -->
-                             <div class="toggle">
-                            <a class="toggleMenu" href="#"><?php _e('Menu','awesomeone'); ?></a>
-                            </div>                           
-                            <div class="nav">
-								<?php wp_nav_menu( array('theme_location'  => 'primary') ); ?>
-                            </div><!-- nav --><div class="clear"></div>
-                    </div><!-- header-inner -->
+<div <?php if(!is_home() || !is_front_page()) {?> <?php }?>>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>">
+                <?php bloginfo('name'); ?>
+            </a>
+    </div>
+
+        <?php
+            wp_nav_menu( array(
+                'menu'              => 'primary',
+                'theme_location'    => 'primary',
+                'depth'             => 2,
+                'container'         => 'div',
+                'container_class'   => 'collapse navbar-collapse',
+        'container_id'      => 'bs-example-navbar-collapse-1',
+                'menu_class'        => 'nav navbar-nav navbar-right',
+                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                'walker'            => new wp_bootstrap_navwalker())
+            );
+        ?>
+    </div>
+</nav>
+
+                            <!-- nav --><div class="clear"></div>
             </div><!-- header -->
 <?php if ( is_front_page() ) { ?>
     <div class="slider-main">
