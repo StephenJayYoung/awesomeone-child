@@ -228,8 +228,8 @@ ul.errormsg li{padding:5px;}
 
 /*Overrides to slider header styles*/
 .nivo-caption{
-	top: 35% !important;
-	left: 55% !important;
+/*	top: 10% !important;
+*/	left: 30% !important;
 	width: 40% !important;
 }
 
@@ -292,5 +292,14 @@ h1.entry-title, h1.page-title {
 */}
 
 
+
+p{
+	margin: 0px !important;
+}
+
+.shop-text{
+	font-size: 25px;
+	padding-bottom: 15px;
+}
 
 
