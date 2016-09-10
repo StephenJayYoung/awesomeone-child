@@ -319,8 +319,9 @@ h1.entry-title, h1.page-title {
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
+  font-family: 'Helvetica';
+  font-weight: 900;
+  font-size: 22px;
   letter-spacing: 1px;
   color: #fff;
 }
