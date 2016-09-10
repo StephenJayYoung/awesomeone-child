@@ -302,4 +302,9 @@ p{
 	padding-bottom: 15px;
 }
 
+h1.entry-title, h1.page-title {
+    text-align: center;
+    display: none;
+}
+
 
