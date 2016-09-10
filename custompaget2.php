@@ -1,4 +1,4 @@
-<?php /* Template Name: CustomPageT1 */ ?>
+<?php /* Template Name: CustomPageT2 */ ?>
 <?php get_header(); ?>
 
 

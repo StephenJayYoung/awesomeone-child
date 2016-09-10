@@ -38,7 +38,7 @@
                             </div><!-- nav --><div class="clear"></div>
                     </div><!-- header-inner -->
             </div><!-- header -->
-<?php if ( is_home() || is_front_page() ) { ?>
+<?php if ( is_front_page() ) { ?>
     <div class="slider-main">
        <?php
 	   		

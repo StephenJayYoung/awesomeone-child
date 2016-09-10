@@ -267,10 +267,17 @@ a.read-more {
 
 	.about-image-two{
 		display: none !important;
+		margin-bottom: 0px !important;
+		padding-bottom: 0px !important;
+		background-color: #000000;
 	}
 
 	.about-image-three{
 		display: none !important;
+		margin-top: 0px !important;
+		padding-top: 0px !important;
+		background-color: #000000;
+
 	}
 }
 
@@ -278,6 +285,17 @@ h1.entry-title, h1.page-title {
 	text-align: center;
 }
 
+/*Athlete Page*/
+.athlete-image{
+	margin-bottom: 20px;
+/*	border: 1px solid #000000;
+*/}
+
+/*Contact Page*/
+.no-padding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
 
 
 
