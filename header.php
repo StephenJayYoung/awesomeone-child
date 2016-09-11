@@ -15,8 +15,9 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-</head>
 <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+</head>
+
 
 <body <?php body_class(); ?>>
 <div <?php if(!is_home() || !is_front_page()) {?> <?php }?>>
@@ -124,8 +125,3 @@
 
 
       <div class="main-container">
-         <?php if( function_exists('is_woocommerce') && is_woocommerce() ) { ?>
-		 	<div class="content-area">
-                <div class="text-center">
-                	<div id="sitemain" class="site-main">
-         <?php } ?>

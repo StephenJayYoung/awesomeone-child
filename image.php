@@ -53,13 +53,7 @@ get_header(); ?>
                             <?php endif; ?>
                         </div><!-- .entry-attachment -->
     
-                        <?php
-                            the_content();
-                            wp_link_pages( array(
-                                'before' => '<div class="page-links">' . __( 'Pages:', 'awesomeone' ),
-                                'after'  => '</div>',
-                            ) );
-                        ?>
+
                     </div><!-- .entry-content -->
     
                     <?php edit_post_link( __( 'Edit', 'awesomeone' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
