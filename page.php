@@ -13,7 +13,7 @@
 get_header(); ?>
 
 <div class="content-area">
-    <div class="middle-align content_sidebar">
+    <div class="text-center">
         <div class="site-main" id="sitemain">
 			<?php while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'content', 'page' ); ?>

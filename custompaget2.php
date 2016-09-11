@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 
-<div style="background-color: #ffffff; color: #ffffff; margin-top: 30px" class="text-center">
+<div style="background-color: #ffffff; color: #ffffff;" class="text-center">
 <?php while ( have_posts() ) : the_post(); ?>
           <?php get_template_part( 'content', 'page' ); ?>
       <?php endwhile; // end of the loop. ?>

@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <div class="content-area">
-    <div class="middle-align content_sidebar">
+    <div class="middle-align">
         <div class="site-main" id="sitemain">
 
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -74,7 +74,6 @@ get_header(); ?>
             <?php endwhile; // end of the loop. ?>
 
         </div>
-        <?php get_sidebar();?>
         <div class="clear"></div>
     </div>
 </div>

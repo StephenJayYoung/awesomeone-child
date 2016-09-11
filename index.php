@@ -15,7 +15,7 @@ get_header();
 
 
     <div class="content-area">
-        <div class="middle-align content_sidebar">
+        <div class="middle-align">
             <div class="site-main" id="sitemain">
 				<?php
                 if ( have_posts() ) :
@@ -39,7 +39,6 @@ get_header();
                 endif;
                 ?>
             </div>
-            <?php get_sidebar();?>
             <div class="clear"></div>
         </div>
     </div>

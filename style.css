@@ -286,10 +286,10 @@ h1.entry-title, h1.page-title {
 }
 
 /*Athlete Page*/
-.athlete-image{
-	margin-bottom: 20px;
+/*.athlete-image{
+	margin-bottom: 20px;*/
 /*	border: 1px solid #000000;
-*/}
+}*/
 
 
 
@@ -485,3 +485,4 @@ header .device-container .screen img {
      border-radius: none !important; 
 	}
 }
+

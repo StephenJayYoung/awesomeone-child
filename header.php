@@ -126,6 +126,6 @@
       <div class="main-container">
          <?php if( function_exists('is_woocommerce') && is_woocommerce() ) { ?>
 		 	<div class="content-area">
-                <div class="middle-align content_sidebar">
+                <div class="text-center">
                 	<div id="sitemain" class="site-main">
          <?php } ?>
