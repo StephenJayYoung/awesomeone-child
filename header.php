@@ -15,9 +15,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 </head>
-
+<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 
 <body <?php body_class(); ?>>
 <div <?php if(!is_home() || !is_front_page()) {?> <?php }?>>
