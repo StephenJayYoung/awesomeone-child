@@ -472,17 +472,28 @@ font-size: 16px;
     }
 }
 
-#bs-example-navbar-collapse-1{
-  height: 250px;
-}
+/*@media (min-width: 20px) and (max-width: 768px){
+  #bs-example-navbar-collapse-1{
+    height: 275px;
+  }
+}*/
 
 @media (min-width: 20px) and (max-width: 991px) {
 
-ul#menu-navigation.nav.navbar-nav.navbar-right{
-  display: inline-block !important;
+  ul#menu-navigation.nav.navbar-nav.navbar-right{
+    display: inline-block !important;
+  }
+
+
+  .navbar-default .nav > li > a {
+      font-family: 'futura', 'sans-serif';
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.5;
+      letter-spacing: 3px;
+      font-size: 18px;
+  }
 }
-
-
 
 .navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
     color: #ffffff;
