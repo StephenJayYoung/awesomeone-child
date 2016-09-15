@@ -140,7 +140,7 @@ ul.errormsg li{padding:5px;}
 }
 
 @media (min-width: 990px){
-	.home .main-container {
+	.home .col-sm-6 {
 	display: none;
 	}
 }
@@ -212,9 +212,9 @@ h1.entry-title, h1.page-title {
 
 
 
-p{
+/*p{
 	margin: 0px !important;
-}
+}*/
 
 .shop-text{
 	font-size: 25px;
@@ -407,5 +407,78 @@ header .device-container .screen img {
 
 html {
     margin-top: none !important;
+}
+
+.copyright {
+	color: #ffffff;
+	background-color: #000000;
+	height: 100px;
+}
+
+.copyright p{
+margin-top: none !important;
+padding: 40px;
+font-size: 16px;
+}
+
+.copyright-wrapper .inner {
+	background-color: #000000;
+}
+
+.footer{
+	background-color: #000 !important;
+}
+
+@media screen and (max-width: 999px) and (min-width: 720px){
+.copyright-wrapper .inner {
+     width: 100% !important; 
+    margin: auto;
+	}
+}
+
+
+@media screen and (max-width: 719px) and (min-width: 480px){
+  .copyright p {
+    margin-top: none !important;
+    padding: 40px;
+  }
+}
+
+/*html{
+	background-color: #000000;
+}*/
+
+.postmeta, .entry-meta {
+    padding: 5px 0;
+    color: #000000;
+    background-color: #000000;
+    clear: both;
+}
+
+
+/*Make the navbar colapse earlier*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
 }
 

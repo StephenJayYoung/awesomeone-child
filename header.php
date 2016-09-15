@@ -55,7 +55,7 @@
                             <!-- nav --><div class="clear"></div>
             </div><!-- header -->
 <?php if ( is_front_page() ) { ?>
-    <div class="slider-main">
+    <div class="slider-main hidden-xs">
        <?php
 	   		
 			$slideimage = '';
