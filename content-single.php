@@ -3,19 +3,14 @@
  * @package Awesomeone
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('single-post'); ?>>
+<article class="text-center" id="post-<?php the_ID(); ?>"  <?php post_class('single-post'); ?>>
 
     <header class="entry-header">
         <h1 class="entry-title"><?php the_title(); ?></h1>
     </header><!-- .entry-header -->
 
     <div class="entry-content">
-        <div class="postmeta">
-        	<div class="post-date"><?php _e('By','awesomeone'); ?> <?php echo get_the_author(); ?></div><!-- post-date --> |
-            <div class="post-date"><?php echo get_the_date(); ?></div><!-- post-date -->
-            <div class="post-comment"> | <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></div>
-            <div class="clear"></div>
-        </div><!-- postmeta -->
+
 		<?php 
         if (has_post_thumbnail() ){
 			echo '<div class="post-thumb">';
@@ -23,6 +18,15 @@
 			echo '</div><br />';
 		}
         ?>
+
+        <div style="padding: 30px">
+            <div style="font-size: 35px; margin-bottom: 35px" class="text-center"><?php the_title(); ?></div>
+            <div style="font-size: 22px; margin-bottom: 10px" class=" text-center post-date"><?php _e('By','awesomeone'); ?> <?php echo get_the_author(); ?></div><!-- post-date -->
+            <div style="font-size: 19px; margin-bottom: 10px" class=" text-center post-date"><?php echo get_the_date(); ?></div><!-- post-date -->
+            <div style="font-size: 15px; margin-bottom: 10px" class="text-center post-comment"> <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></div>
+            <div class="clear"></div>
+        </div><!-- postmeta -->
+
         <?php the_content(); ?>
         <?php
         wp_link_pages( array(

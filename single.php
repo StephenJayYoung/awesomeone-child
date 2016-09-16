@@ -7,7 +7,7 @@
 
 get_header(); ?>
 
-<div class="content-area">
+<div class="content-area container" style="margin-top: 20px">
     <div class="middle-align">
         <div class="site-main" id="sitemain">
 			<?php while ( have_posts() ) : the_post(); ?>

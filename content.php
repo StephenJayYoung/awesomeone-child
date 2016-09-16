@@ -3,7 +3,7 @@
  * @package Awesomeone
  */
 ?>
-<div class="blog-post-repeat" style="padding: 20px" >
+<div class="blog-post-repeat" style="padding: 30px" >
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <header class="entry-header" style="background-color: #fff">
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
