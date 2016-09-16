@@ -21,7 +21,8 @@ AwesomeOne WordPress Theme is released under the terms of GNU GPL
 body{ margin:0; padding:0; -ms-word-wrap:break-word; word-wrap:break-word; background-color:#fff; position:relative; font:12px/22px arial; color:#666666;}
 img{ margin:0; padding:0; border:none; max-width:100%; height:auto; }
 section img{max-width:100%;}
-h1,h2,h3,h4,h5,h6{ margin:0; padding:0 0 5px;}
+h1, h2{ font-family: 'Futura-CondensedMedium'; }
+h3,h4,h5,h6{ margin:0; padding:0 0 5px; font-family: 'Futura'}
 p{ margin:0; font-size: 21px; padding:0;}
 a{ text-decoration:none; color:#0fa5d9;}
 a:hover{ text-decoration:none; color:#666;}
@@ -46,24 +47,24 @@ section{ padding:70px 0; position:relative;}
 h2.section-title {font-weight:700; padding:0 0 15px 0; text-align:center; text-transform:uppercase; border-bottom:2px solid; display:table; margin-bottom:50px;}
 #slider{ width:100%; margin:0; padding:0; position:relative;}
 #slider .top-bar{ margin:0; padding:16px 0 20px; position:relative; text-align:center;}
-#slider .top-bar h2{font-weight:900; padding:15px 0 20px 0; text-align:center; text-transform:uppercase; line-height:55px; border-radius:5px 5px 0 0; font-size:50px; font-family:'Roboto Condensed'; background-color:rgba(0,0,0,0.5);}
-#slider .top-bar p{ color:#ffffff; font-weight:400; margin:0 0 10px 0; line-height:24px; text-align:center; padding-bottom:15px; border-radius:0 0 5px 5px; font-family:'Roboto'; font-size:20px; background-color:rgba(0,0,0,0.5);}
+#slider .top-bar h2{font-weight:900; padding:15px 0 20px 0; text-align:center; text-transform:uppercase; line-height:55px; border-radius:5px 5px 0 0; font-size:50px; font-family:'Futura'; background-color:rgba(0,0,0,0.5);}
+#slider .top-bar p{ color:#ffffff; font-weight:400; margin:0 0 10px 0; line-height:24px; text-align:center; padding-bottom:15px; border-radius:0 0 5px 5px; font-family:'Futura'; font-size:20px; background-color:rgba(0,0,0,0.5);}
 
 
-a.read-more{ display:inline-block; font:400 16px 'Futura Medium', sans-serif; padding:10px 30px; margin-top:21px; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; -o-border-radius:0px; -ms-border-radius:0px; margin-right:15px; background-color: #fff; color: #000; border: 3px solid #000000; opacity: .99;}
+a.read-more{ display:inline-block; font:400 18px 'Futura Medium', sans-serif; padding:15px 30px; margin-top:21px; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; -o-border-radius:0px; -ms-border-radius:0px; margin-right:15px; background-color: #fff; color: #000; opacity: .99;}
 .common_btn{ background-color:#fff; color: #000; padding:8px 30px;  margin-top:30px; border:2px solid #fff; }
 
 .main-container{margin:0; padding:0;}
 .header.fixed{position:fixed !important; top:0 !important; margin:0; padding:15px 0; z-index:99;}
 .header .header-inner{ margin:0 auto; padding:0; position:relative; width:1160px;}
 .header .header-inner .logo{margin:0; padding:0; }
-.header .header-inner .logo h1{ font-weight:700; text-transform:uppercase; padding:0; font-family:'Roboto Condensed'; font-size:30px; }
+.header .header-inner .logo h1{ font-weight:700; text-transform:uppercase; padding:0; font-family:'Futura'; font-size:30px; }
 .header .header-inner .logo a{ color:#ffffff;}
-.header .header-inner .logo span{ font-size:12px; color:#ffffff; font-family:arial;}
+.header .header-inner .logo span{ font-size:12px; color:#ffffff; font-family:'Futura';}
 .toggle{display:none;}
 .header{position:absolute; z-index:999; width:100%;  height:auto; padding:12px 0; background-color:rgba(0,0,0,0.6);}
 .header .header-inner .nav{ margin:0; padding:0; text-align:right; float:right;}
-.header .header-inner .nav ul { float:right; margin:5px 0 0; padding:0; font-family:'Roboto Condensed', sans-serif; font-weight:400; font-size:15px;}
+.header .header-inner .nav ul { float:right; margin:5px 0 0; padding:0; font-family:'Futura', sans-serif; font-weight:400; font-size:15px;}
 .header .header-inner .nav ul li{ display:inline-block; margin:0; text-transform:uppercase; position:relative;}
 .header .header-inner .nav ul li a{ color:#ffffff; padding:5px 10px; display:block;}
 .header .header-inner .nav ul li a:hover{color:#0fa5d9;}
@@ -218,6 +219,7 @@ h1.entry-title, h1.page-title {
 .shop-text{
 	font-size: 25px;
 	padding-bottom: 15px;
+  font-family: 'Futura';
 }
 
 h1.entry-title, h1.page-title {
@@ -232,12 +234,12 @@ h1.entry-title, h1.page-title {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: 'Futura';
   font-weight: 200;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Helvetica';
+  font-family: 'Futura';
   font-weight: 900;
   font-size: 22px;
   letter-spacing: 1px;
@@ -253,7 +255,7 @@ h1.entry-title, h1.page-title {
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
-  font-family: 'futura', 'sans-serif';
+  font-family: 'Futura';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -418,6 +420,7 @@ html {
 margin-top: none !important;
 padding: 40px;
 font-size: 16px;
+font-family: 'Futura';
 }
 
 .copyright-wrapper .inner {
@@ -485,7 +488,7 @@ font-size: 16px;
 
 
   .navbar-default .nav > li > a {
-      font-family: 'futura', 'sans-serif';
+      font-family: 'Futura';
       font-weight: bold;
       text-transform: uppercase;
       line-height: 1.5;
@@ -509,6 +512,7 @@ font-size: 16px;
   border-radius: 0px !important;
   color: #000;
   background-color: #fff;
+  font-family: 'Futura';
 }
 
 .btn:hover{
@@ -546,3 +550,8 @@ h2.comments-title{
   margin-top: 40px;
 }
 
+p{
+  padding: 15px;
+  font-family: 'Futura';
+
+}

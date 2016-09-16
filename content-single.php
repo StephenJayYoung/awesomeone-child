@@ -3,7 +3,7 @@
  * @package Awesomeone
  */
 ?>
-<div class="container">
+<div class="container" style="margin-top: 30px">
 <article class="text-left" id="post-<?php the_ID(); ?>"  <?php post_class('single-post'); ?>>
 
     <header class="entry-header">

@@ -8,7 +8,7 @@
 get_header(); ?>
 
 <div class="container">
-<div class="content-area" style="margin-top: 20px">
+<div class="content-area">
         <div class="site-main" id="sitemain">
 			<?php while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'content', 'single' ); ?>
