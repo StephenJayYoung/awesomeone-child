@@ -222,6 +222,14 @@ h1.entry-title, h1.page-title {
   font-family: 'Futura';
 }
 
+@media screen and (max-width:899px) and (min-width:320px) { 
+	.shop-text{
+		font-size: 19px;
+
+	}
+}
+
+
 h1.entry-title, h1.page-title {
     text-align: center;
     display: none;
@@ -553,5 +561,6 @@ h2.comments-title{
 p{
   padding: 15px;
   font-family: 'Futura';
-
 }
+
+
