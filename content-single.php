@@ -3,7 +3,8 @@
  * @package Awesomeone
  */
 ?>
-<article class="text-center" id="post-<?php the_ID(); ?>"  <?php post_class('single-post'); ?>>
+<div class="container">
+<article class="text-left" id="post-<?php the_ID(); ?>"  <?php post_class('single-post'); ?>>
 
     <header class="entry-header">
         <h1 class="entry-title"><?php the_title(); ?></h1>
@@ -11,6 +12,7 @@
 
     <div class="entry-content">
 
+    <div class="img-responsive">
 		<?php 
         if (has_post_thumbnail() ){
 			echo '<div class="post-thumb">';
@@ -18,9 +20,10 @@
 			echo '</div><br />';
 		}
         ?>
+    </div>
 
         <div style="padding: 30px">
-            <div style="font-size: 35px; margin-bottom: 35px" class="text-center"><?php the_title(); ?></div>
+            <div style="font-size: 35px; margin-bottom: 35px; line-height: 1.5" class=" entry-title text-center"><?php the_title(); ?></div>
             <div style="font-size: 22px; margin-bottom: 10px" class=" text-center post-date"><?php _e('By','awesomeone'); ?> <?php echo get_the_author(); ?></div><!-- post-date -->
             <div style="font-size: 19px; margin-bottom: 10px" class=" text-center post-date"><?php echo get_the_date(); ?></div><!-- post-date -->
             <div style="font-size: 15px; margin-bottom: 10px" class="text-center post-comment"> <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></div>
@@ -46,3 +49,4 @@
     </footer><!-- .entry-meta -->
 
 </article>
+</div>
