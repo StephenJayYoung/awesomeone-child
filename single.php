@@ -7,8 +7,8 @@
 
 get_header(); ?>
 
-<div class="content-area container" style="margin-top: 20px">
-    <div class="middle-align">
+<div class="container">
+<div class="content-area" style="margin-top: 20px">
         <div class="site-main" id="sitemain">
 			<?php while ( have_posts() ) : the_post(); ?>
                 <?php get_template_part( 'content', 'single' ); ?>
@@ -23,5 +23,6 @@ get_header(); ?>
         <div class="clear"></div>
     </div>
 </div>
+
 
 <?php get_footer(); ?>
