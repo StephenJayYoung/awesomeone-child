@@ -12,7 +12,7 @@
         <div class="copyright-wrapper text-center">
         	<div class="inner col-sm-12">
                 <div class="copyright text-center">
-                    	<p><?php echo awesomeone_credit_link(); ?></p>               
+                    	<p>Copyright the Jbac 2016</p>               
                 </div><!-- copyright --><div class="clear"></div>         
         </div>
     </div>

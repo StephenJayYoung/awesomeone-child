@@ -229,6 +229,12 @@ h1.entry-title, h1.page-title {
 	}
 }
 
+@media screen and (max-width:700px) and (min-width:320px) { 
+	.navbar-default .navbar-header .navbar-brand {
+	    font-size: 17px;
+	}
+}
+
 
 h1.entry-title, h1.page-title {
     text-align: center;
@@ -247,7 +253,7 @@ h1.entry-title, h1.page-title {
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Futura';
+  font-family: 'Vincent';
   font-weight: 900;
   font-size: 22px;
   letter-spacing: 1px;
@@ -561,6 +567,12 @@ h2.comments-title{
 p{
   padding: 15px;
   font-family: 'Futura';
+}
+
+@media screen and (max-width: 550px) and (min-width: 0px){
+  .navbar-default .navbar-header .navbar-brand {
+      font-size: 19px !important;
+  }
 }
 
 
